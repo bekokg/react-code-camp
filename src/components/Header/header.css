@@ -1,0 +1,17 @@
+.header {
+  background: url(./header.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  width: 100%;
+  color: #fff;
+  padding: 30px;
+}
+.header .content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header .nav-btn {
+	display: inline-block;
+	margin-left: 15px;
+	align-items: center;
+}

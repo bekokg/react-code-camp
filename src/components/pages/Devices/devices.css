@@ -1,0 +1,25 @@
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.devices {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.devices .btn {  
+  box-sizing: border-box;
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  padding: 50px 100px;
+  border: 1px solid #eee;
+  font-size: 30px;
+  transition: all .35s;
+}
+.devices .btn:first-of-type {
+  margin-right: 100px;
+}
+.devices .btn:hover {
+	background-color: #e6e6e6;
+}
