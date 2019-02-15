@@ -1,0 +1,58 @@
+@import url(https://use.fontawesome.com/releases/v5.7.1/css/all.css);
+.fas {
+  margin-right: 2px;
+}
+.content {
+  max-width: 1200px;
+  min-width: 400px;
+  margin: 0 auto;
+}
+
+ .content .title { 
+  text-align: center;
+  font-size: 30px;
+  color: #777;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.issue-steps {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.issue-steps .btn.price-btn {
+  
+  padding-right: 5rem;
+  flex-basis: 250px;
+  color: #777;
+}
+.issue-steps .btn { 
+  font-weight: 500; 
+ width: 100%;
+ text-align: center;
+  box-sizing: border-box;
+  flex-basis: 200px;
+   font-size: 18px;
+  position: relative;  
+  height: 60px;
+ border: 2px solid #afafaf;
+ border-radius: 50px;
+ margin: 10px 3%;
+ padding: 1rem;
+ text-decoration: none;
+ 
+ transition: all .3s;
+}
+.issue-steps .btn:hover {
+  background-color: #e6e6e6;
+}
+.price {
+  padding: 18px;
+  background: #2b64b0;
+  color: white;
+  right: 0;
+  top: 0;
+  position: absolute;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+}

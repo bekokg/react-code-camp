@@ -1,10 +1,13 @@
 .header {
+  box-sizing: content-box;
   background: url(./header.jpg);
   background-repeat: no-repeat;
-  background-size: 100vw;
+  /*background-size: 100vw;*/
   width: 100%;
   color: #fff;
   padding: 30px;
+  margin: 0;
+  margin-bottom: 30px;
 }
 .header .content {
   max-width: 1200px;
@@ -13,5 +16,7 @@
 .header .nav-btn {
 	display: inline-block;
 	margin-left: 15px;
-	align-items: center;
+  text-decoration: none;
+  color: #fff;
+  
 }
